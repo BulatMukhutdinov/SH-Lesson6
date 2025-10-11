@@ -1,22 +1,15 @@
-@file:Suppress("unused")
-
 package tat.mukhutdinov.lesson6
 
-import android.content.Context
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.test.junit4.createComposeRule
-
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performTextInput
-import androidx.test.platform.app.InstrumentationRegistry
-
 import org.junit.Rule
 import org.junit.Test
-
 import tat.mukhutdinov.lesson6.ui.theme.TipTimeTheme
 import java.text.NumberFormat
 
-class TipUITests {
+class TipUiTests {
 
     @get:Rule
     val composeTestRule = createComposeRule()
